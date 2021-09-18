@@ -32,7 +32,7 @@ const movies = [
     {
         id: 5,
         name: 'Mission Impossible',
-        rating: 5,
+        rating: 4.5,
         genre: 0,
     },
     {
@@ -44,7 +44,7 @@ const movies = [
     {
         id: 7,
         name: 'Interstellar',
-        rating: 5,
+        rating: 4,
         genre: 2,
     },
     {

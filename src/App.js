@@ -20,7 +20,7 @@ const App = () => {
       <p>Here are some of them...</p>
       <div>{genres.map((genre, index) => <button key={index} onClick={() => changeGenre(index)} className={styles.genre_btn}>{genre}</button>) }</div>
       {
-        genreMovies.map(movie => <div key={movie.id} className={styles.movie}>{movie.name}</div>)
+        genreMovies.map(movie => <div key={movie.id} className={styles.movie}>{`${movie.name} ${movie.rating}/5`}</div>)
       }
 
     </div>
