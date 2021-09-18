@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background: lightyellow;
+}
+
+h2 {
+    margin-bottom: -10px;
+    padding: 20px 0;
+    text-align: center;
+    text-transform: capitalize;
+    color: limegreen;
+    font-size: 2rem;
+}
+
+p {
+    color: brown;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.genre_btn {
+    margin: 0 20px;
+    color: firebrick;
+    background: lightsalmon;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: lightsalmon;
+}
+.genre_btn:hover {
+    cursor: pointer;
+    border-color: firebrick;
+}
+
+.movie {
+    margin: 10px 20px;
+    color: brown;
+}
