@@ -23,7 +23,9 @@ p {
     text-align: center;
     margin-bottom: 50px;
 }
-
+.genrelist {
+    margin-bottom: 25px;
+}
 .genre_btn {
     margin: 0 20px;
     color: firebrick;
@@ -39,6 +41,24 @@ p {
 }
 
 .movie {
-    margin: 10px 20px;
+    margin: 20px 20px;
+    letter-spacing: 1px;
     color: brown;
+    border-style: solid;
+    border-width: thin;
+    border-color: brown;
+    border-radius: 5px;
+    padding: 10px;
+}
+.movie_desc {
+    width: 70vw;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 5px;
+    text-align: left;
+    font-size: 0.9rem;
+}
+span {
+    font-style: italic;
+    font-size: 0.9rem;
 }
