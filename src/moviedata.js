@@ -1,4 +1,4 @@
-const movies = [
+export const movies = [
     {
         id: 0,
         name: 'Fight Club',
@@ -65,6 +65,4 @@ const movies = [
 
 ]
 
-const genres = ['action', 'drama', 'sci-fi']
-
-export {movies, genres}
+export const genres = ['action', 'drama', 'sci-fi']
